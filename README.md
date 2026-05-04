@@ -5,10 +5,10 @@
 This project presents an FPGA-based approach for crop recommendation and yield prediction using environmental parameters such as temperature, rainfall, humidity, soil type, and weather conditions. The objective is to develop a real-time agricultural decision support system that assists farmers in selecting suitable crops and estimating expected yield. A Decision Tree machine learning model is used due to its rule-based structure, which can be efficiently mapped into hardware. The trained model is converted into Verilog-based RTL and implemented on FPGA to perform on-device inference.
 
 **Dataset**
-Dataset: Crop Yield Dataset (Kaggle)
-Link: https://www.kaggle.com/datasets/aarongebremariam/crop-yield
-Features: Temperature, Rainfall, Humidity, Soil Type, Weather Conditions
-Preprocessing: Continuous values converted into LOW, MID, HIGH categories and encoded numerically
+1) Dataset: Crop Yield Dataset (Kaggle)
+2) Link: https://www.kaggle.com/datasets/aarongebremariam/crop-yield
+3) Features: Temperature, Rainfall, Humidity, Soil Type, Weather Conditions
+4) Preprocessing: Continuous values converted into LOW, MID, HIGH categories and encoded numerically
 
 **Methodology**
 
